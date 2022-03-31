@@ -1,0 +1,11 @@
+.Regform {
+    background-color: rgb(238, 204, 153);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card{
+  background-color: rgb(238, 204, 153);
+
+}
