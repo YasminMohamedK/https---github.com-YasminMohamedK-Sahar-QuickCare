@@ -9,7 +9,7 @@ define('DB_NAME', 'sahar');
 //echo dirname(dirname(__FILE__));
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
-define('URLROOT', 'http://localhost/mvc/public/');
+define('URLROOT', 'http://localhost/sahar/public/');
 // Site Name
 define('SITENAME', 'Sa7ar Quick Care');
 
@@ -18,4 +18,4 @@ define('APP_VERSION', '1.2');
 //public pages path
 define('VIEWS_PATH', '../app/views/');
 
-define('ImageRoot','http://localhost/mvc/app/views/images/');
+define('ImageRoot','http://localhost/sahar/app/views/images/');
