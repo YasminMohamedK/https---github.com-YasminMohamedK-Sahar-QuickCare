@@ -1,3 +1,14 @@
 .jumbotron{
     background-color:#eca969;
 }
+.semi-transparent-button {
+     display: block;
+      box-sizing: border-box;
+       margin: 0 auto; 
+       padding: 8px; width: 80%; max-width: 200px; 
+       background: rgb(232, 164, 87); 
+       background: rgba(232, 164, 87,0.5); border-radius: 8px;
+        color: rgb(18, 17, 17); text-align: center; text-decoration: none; 
+        letter-spacing: 1px; transition: all 0.3s ease-out; 
+    }
+
