@@ -25,3 +25,10 @@ class Pages extends Controller
         $galleryView->output();
     }
 }
+public function categories()
+    {
+        $viewPath = VIEWS_PATH . 'pages/categories.php';
+        require_once $viewPath;
+        $categoriesView = new categories($this->getModel(), $this);
+        $categoriesView->output();
+    }
